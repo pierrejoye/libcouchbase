@@ -28,10 +28,10 @@
  * @author Trond Norbye
  */
 
-#include <strings.h>
+#include <string.h>
 #include <stdint.h>
 
-#define HAVE_INTTYPES_H 1
+/*#define HAVE_INTTYPES_H 1*/
 #define HAVE_WINSOCK2_H 1
 #define HAVE_WS2TCPIP_H 1
 

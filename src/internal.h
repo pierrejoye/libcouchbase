@@ -26,7 +26,9 @@
 #else
 #include "myevent.h"
 #endif
+#ifndef WIN32
 #include <stdbool.h>
+#endif
 #include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>

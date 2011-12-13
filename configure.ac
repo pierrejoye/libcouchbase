@@ -47,7 +47,8 @@ AC_CHECK_HEADERS_ONCE([sys/socket.h
                        netdb.h
                        unistd.h
                        ws2tcpip.h
-                       winsock2.h])
+                       winsock2.h
+                       stdbool.h])
 
 AC_CACHE_CHECK([for htonll], [ac_cv_have_htonll],
     [AC_TRY_LINK([
